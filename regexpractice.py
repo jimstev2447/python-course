@@ -54,6 +54,7 @@ for line in fhand:
 #checks for at least 6 characters
     if re.search('.{6,}', line):
         print "this line has at least 6 characters"
+    
 #checks for exactly 6 characters
     if re.search('^.{6}$',line):
         print "this line has exactly 6 characters"
