@@ -15,5 +15,5 @@ while count >= 0:
     
     for tag in tags: taglist.append(tag.get('href',None))
     
-    url = taglist[int(position) -1]
+    url = taglist[position -1]
     count = count - 1
